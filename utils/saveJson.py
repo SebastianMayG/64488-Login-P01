@@ -24,7 +24,7 @@ def cargar_diccionario(nombre_archivo):
     except Exception as e:
         print(f"Error al cargar: {e}")
         return {}
-
+    
 # Uso de las funciones
 # mi_diccionario = {"clave": "valor", "numero": 42, "lista": [1, 2, 3]}
 # guardar_diccionario(mi_diccionario, "users-db.json")
